@@ -1,0 +1,16 @@
+[package]
+name = "rpi_text_show_ssd1306"
+version = "0.1.0"
+authors = ["RDCarrot <yyt226univ2017@yahoo.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.8.0", features = ["unstable"] }
+futures = "0.3.8"
+base64 = "0.13.0"
+ssd1306 = "0.5.0"
+linux-embedded-hal = "0.3.0"
+embedded-graphics = "0.6.2"
+clap = "2.33.3"
